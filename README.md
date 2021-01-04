@@ -20,9 +20,8 @@ Click [here](https://mollyhwy.com/archives/251).
 ![diagram](https://github.com/mollyhe0523/draw-your-music/raw/master/demo/diagram.png)
 
 ### Python Library Used
-- librosa
-- pretty_midi
-- tkinter
+- GUI-- tkinter
+- Synthesis-- pretty_midi
 
 ### Task Breakdown
 __Molly -- GUI__
@@ -74,7 +73,7 @@ __Molly -- GUI__
   drawing.bind('<B1-Motion>', w_draw)
   drawing.bind('<ButtonRelease-1>', reset_coords)
   ```
- 
+
 __Sophia -- Analysis & Synthesis__
 1. Encoding keys and tonality with midi key notation:
   ```Python
