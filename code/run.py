@@ -83,8 +83,7 @@ def spectrum_to_wave(key_scale,Tuple,width,colors):    # x->time y->frequency
 def note(key_note,key_scale,note):
     new_note=[]
     for i in range(0,len(note)):
-        new_note.append((note[i][0],key_note + (note[i][1]//len(key_scale))*12 \
-                         + key_scale[note[i][1]%len(key_scale)]))
+        new_note.append((note[i][0],key_note + (note[i][1]//len(key_scale))*12 + key_scale[note[i][1]%len(key_scale)]))
     return new_note
 
 def chord_library(key_name):
@@ -234,9 +233,9 @@ def main(Tuple,key_letter,key_name):
 
 
 
-from tkinter import *
-from PIL import ImageTk, Image
-from tkinter import messagebox
+# from tkinter import *
+# from PIL import ImageTk, Image
+# from tkinter import messagebox
 
 # Tonality
 root = Tk()
