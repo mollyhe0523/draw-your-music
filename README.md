@@ -12,6 +12,6 @@ Then draw lines to create music with choices of 4 musical instruments:
 ![canvas](https://github.com/mollyhe0523/draw-your-music/raw/master/demo/canvas.png)
 
 ## Demo
-![C-Chinese](/demo/C-Chinese.mp3)
+![C-Chinese](https://github.com/mollyhe0523/draw-your-music/raw/master/demo/C-Chinese.mp3)
 
 [t](/demo/t.m4a)
